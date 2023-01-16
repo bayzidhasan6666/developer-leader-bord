@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+/* header styles start */
+/* navigation styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 94px;
+    background:  rgb(248, 155, 155);
+    margin-bottom: 20px;
+
+}
+.nav-header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-header img{
+    width: 40.42px;
+    height: 51px;
+    margin-top:0px;
+
+}
+.nav-header a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu img{
+    width: 50.42px;
+    height: 51px;
+}
+.menu a{
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+/*-------------- ------------
+Top players container styles
+ -----------------------------*/
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+}
+
+
+.players h2{
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+}
+.player{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+}
+.player img{
+    width: 50.42px;
+    height: 51px;
+} 
+.first-container{
+    background-color: rgb(253, 211, 211);
+    width: 57%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 50px 10px;
+    margin-bottom: 50px;
+}       
+/* -----------------
+Blog styles start
+----------------- */
+.blog img{
+    width: 100px;
+}
+.blogs-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    margin-left: 70px;
+    column-gap: 180px;
+}
+.top-title{
+    margin-left:70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blog{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+hr{
+    width: 85%;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+}
+/* course styles */
+.course-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.course img{
+    width: 100px;
+    height: 60px;
+}
+.course{
+    width: 200px;
+    background: rgb(248, 155, 155);
+    border-radius: 5px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(253, 211, 211);
+    width: 57%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 50px 10px;
+    margin-bottom: 50px;
+}
+.stars{
+    display: flex;
+    gap: 2px;
+    
+}
+.stars img{
+    width: 15px;
+    height: 15px;
+}
